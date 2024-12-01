@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us! Use our contact form to send your inquiries, feedback, or just say hello.">
+    <meta name="keywords" content="Contact, Feedback, Inquiry, Email">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <p>If you have any questions, suggestions, or just want to say hi, feel free to drop us a message using the form below. We'd love to hear from you!</p>
+        <section id="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contact-form" action="process-contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section id="social-media">
+            <h2>Connect With Us</h2>
+            <ul>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved. Designed with ❤️ by [Your Name].</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<section id="contact-form">
+    <form action="process-contact.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>

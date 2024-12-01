@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore insightful blog posts on technology, travel, and lifestyle. Stay inspired and informed!">
+    <meta name="keywords" content="Blog, Technology, Travel, Lifestyle, Inspiration">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Blog</h1>
+        <p>Welcome to our blog! Dive into articles that explore the latest in technology, tips for travelers, and insights into everyday life.</p>
+        
+        <!-- Arama Çubuğu -->
+        <section id="search-bar">
+            <h2>Search Posts</h2>
+            <form id="search-form" action="search.php" method="GET">
+                <input type="text" id="search" name="query" placeholder="Search blog posts..." required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- Blog Gönderileri -->
+        <section id="posts-list">
+            <h2>Recent Posts</h2>
+            <article>
+                <h3><a href="post1.html">The Future of Artificial Intelligence</a></h3>
+                <p>By Author Name - January 1, 2024</p>
+                <p>Artificial Intelligence is transforming the world. Explore the opportunities and challenges it presents.</p>
+                <a href="post1.html">Read More</a>
+            </article>
+            <article>
+                <h3><a href="post2.html">Top 10 Travel Destinations for 2024</a></h3>
+                <p>By Author Name - December 25, 2023</p>
+                <p>Planning your next trip? Discover the top destinations to visit this year!</p>
+                <a href="post2.html">Read More</a>
+            </article>
+            <article>
+                <h3><a href="post3.html">Work-Life Balance Tips</a></h3>
+                <p>By Author Name - November 10, 2023</p>
+                <p>Learn practical tips to achieve balance and harmony in your life.</p>
+                <a href="post3.html">Read More</a>
+            </article>
+        </section>
+
+        <!-- Kategoriler -->
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="category-tech.html">Technology</a></li>
+                <li><a href="category-travel.html">Travel</a></li>
+                <li><a href="category-lifestyle.html">Lifestyle</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved. | Designed with ❤️ by [Your Name]</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<section id="posts-list">
+    <h1>Blog Posts</h1>
+    <article>
+        <h3><a href="post.html">The Future of AI</a></h3>
+        <p>By John Doe - January 1, 2024</p>
+        <p>Explore the opportunities and challenges of artificial intelligence.</p>
+    </article>
+</section>
+<section id="categories">
+    <h2>Categories</h2>
+    <ul>
+        <li><a href="category-tech.html">Technology</a></li>
+        <li><a href="category-travel.html">Travel</a></li>
+        <li><a href="category-life.html">Lifestyle</a></li>
+    </ul>
+</section>
+<select id="category-filter">
+    <option value="all">All Categories</option>
+    <option value="tech">Technology</option>
+    <option value="travel">Travel</option>
+    <option value="lifestyle">Lifestyle</option>
+</select>
